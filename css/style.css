@@ -1,0 +1,127 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #13203B;
+  font-family: sans-serif;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  padding: 0 200px;
+}
+
+.hero_name {
+  font-family: "Russo One", sans-serif;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 50px;
+  letter-spacing: 2.5px;
+}
+
+.top {
+  font-family: "Russo One", sans-serif;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 70px;
+  letter-spacing: 2.5px;
+}
+
+.logo {
+  margin: 100px 0 200px 0;
+  text-align: center;
+}
+.logo .rasm1 {
+  width: 750px;
+  height: 350px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
+  border-radius: 50px;
+  margin-bottom: 150px;
+  box-shadow: 0 0 50px 25px dodgerblue;
+}
+
+.rasm {
+  width: 30%;
+}
+
+.box__text {
+  width: 65%;
+  font-size: 20px;
+  line-height: 2;
+  text-align: center;
+}
+
+.text {
+  padding: 10px 25px;
+}
+
+@media (max-width: 1610px) {
+  .container {
+    padding: 0 100px;
+  }
+  .top {
+    font-size: 50px;
+  }
+  .logo .rasm1 {
+    width: 400px;
+    height: 250px;
+    margin-bottom: 250px;
+    margin-top: 200px;
+  }
+}
+@media (max-width: 1390px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+@media (max-width: 1185px) {
+  .rasm {
+    width: 100%;
+  }
+  .box__text {
+    width: 100%;
+  }
+  .box__text .text {
+    font-size: 25px;
+  }
+}
+@media (max-width: 700px) {
+  .hero_name {
+    font-size: 35px;
+  }
+  .text {
+    font-size: 20px;
+  }
+  .top {
+    font-size: 40px;
+  }
+  .logo .rasm1 {
+    margin: 70px 0;
+  }
+  .container {
+    padding: 0 5px;
+  }
+  .text {
+    padding: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
